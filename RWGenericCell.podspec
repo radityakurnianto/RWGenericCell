@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RWGenericCell'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A painless way to register and dequeue cell.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ RWGenericCell is a helper tool to register, dequeue cell within UITableView, UIC
   s.homepage         = 'https://github.com/radityakurnianto/RWGenericCell'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'radityakurnianto' => 'raditya@detik.com' }
+  s.author           = { 'radityakurnianto' => 'raditya.kurnianto@gmail.com' }
   s.source           = { :git => 'https://github.com/radityakurnianto/RWGenericCell.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
