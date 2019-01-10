@@ -1,0 +1,16 @@
+PODS:
+  - RWGenericCell (0.1.0)
+
+DEPENDENCIES:
+  - RWGenericCell (from `../`)
+
+EXTERNAL SOURCES:
+  RWGenericCell:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RWGenericCell: 1a838d249bd8c2409f37ac0ee5ba7739ed467857
+
+PODFILE CHECKSUM: f352b24936246485778f6a93e4de8654d8bbec7f
+
+COCOAPODS: 1.5.3

@@ -31,7 +31,7 @@
 		1D9D06CDA77A5A495A362285 /* Pods-RWGenericCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWGenericCell_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWGenericCell_Tests/Pods-RWGenericCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1EBBAC98D7C68D08E935E90E /* Pods-RWGenericCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWGenericCell_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWGenericCell_Example/Pods-RWGenericCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		25DE2FF44CA25F35FCE06056 /* Pods-RWGenericCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWGenericCell_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWGenericCell_Tests/Pods-RWGenericCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		27720274B979F8BDC411E11E /* RWGenericCell.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RWGenericCell.podspec; path = ../RWGenericCell.podspec; sourceTree = "<group>"; };
+		27720274B979F8BDC411E11E /* RWGenericCell.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RWGenericCell.podspec; path = ../RWGenericCell.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* RWGenericCell_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWGenericCell_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8162B3321B52C48568BE90DA /* Pods_RWGenericCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWGenericCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAD598FC54FEBE911ABDC0B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AAD598FC54FEBE911ABDC0B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C3100D6D50C522EC874CDC75 /* Pods_RWGenericCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWGenericCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8CA1B4B702623DB0F8815E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C8CA1B4B702623DB0F8815E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D6D0786439705E6C80B185D2 /* Pods-RWGenericCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWGenericCell_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWGenericCell_Example/Pods-RWGenericCell_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
