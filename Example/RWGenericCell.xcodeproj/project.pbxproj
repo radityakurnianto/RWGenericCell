@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		859403CD371C8E9FB1DB9D55 /* Pods_RWGenericCell_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8162B3321B52C48568BE90DA /* Pods_RWGenericCell_Example.framework */; };
+		E07CDFC021E706620011A441 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07CDFBE21E706620011A441 /* CustomCell.swift */; };
+		E07CDFC121E706620011A441 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07CDFBF21E706620011A441 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C3100D6D50C522EC874CDC75 /* Pods_RWGenericCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWGenericCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CA1B4B702623DB0F8815E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D6D0786439705E6C80B185D2 /* Pods-RWGenericCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWGenericCell_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWGenericCell_Example/Pods-RWGenericCell_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E07CDFBE21E706620011A441 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E07CDFBF21E706620011A441 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				E07CDFC221E7066D0011A441 /* TableViewCell */,
 			);
 			name = "Example for RWGenericCell";
 			path = RWGenericCell;
@@ -146,6 +151,15 @@
 				C3100D6D50C522EC874CDC75 /* Pods_RWGenericCell_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07CDFC221E7066D0011A441 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E07CDFBE21E706620011A441 /* CustomCell.swift */,
+				E07CDFBF21E706620011A441 /* CustomCell.xib */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 		EF6B57837A39B044284EB65F /* Pods */ = {
@@ -247,6 +261,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				E07CDFC121E706620011A441 /* CustomCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				E07CDFC021E706620011A441 /* CustomCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
