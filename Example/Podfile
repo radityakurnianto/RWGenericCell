@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RWGenericCell_Example' do
+  pod 'RWGenericCell', :path => '../'
+
+  target 'RWGenericCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
